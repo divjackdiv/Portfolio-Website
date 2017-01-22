@@ -1,6 +1,6 @@
 
 .round-btn-outer {
-  margin-top:80px; 
+  margin-top:37%; 
   width: 180px; 
   height: 180px; 
   -webkit-border-radius: 50%;
@@ -20,4 +20,18 @@
     margin-left:6%; 
     margin-top:6%; 
     height:150px;
+}
+.custom-footer{
+  margin-top: 20px; 
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  bottom:0; 
+  position: absolute; 
+  width: 100%; 
+  z-index: 1; 
+  background: white;
+}
+.imgContainer{
+  height:300px;
+  width:300px;
 }
