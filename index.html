@@ -3,7 +3,7 @@
 
   <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Jack Berreby Portfolio</title>
@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="/css/customCss.css"  media="all">
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/css/hover.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
   <link href="/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/imgs/favicon/apple-touch-icon.png">
@@ -30,7 +33,7 @@
 
     <div class="col-md-3"> </div>
     <div class="col-md-6">
-      <a class="site-title"  href="/">Jack Berreby Portfolio</a>
+      <a class="site-title"  href="/">Jack Berreby</a>
     </div>
 </header>
     
@@ -38,86 +41,140 @@
       <div class="row" style="margin-left: 0px; margin-right: 0px;">
         <div class="col-md-3">
           <div style = "padding-left:40px;">
-            <img src="/imgs/chibiMe.png" alt="me" height="250" >
-            <h1 class="page-heading">About Me</h1>
-            
-            <div class="footer-col-wrapper">
-              <ul class="contact-list" >
-                Hey, I'm Jack, a VR developper living in London. I love playing and creating all kinds of games, from tower defense games to RPGs. 
+            <img src="/imgs/Me.jpg" alt="me" >
+            <h1 class="data-title" style="font-size:30px;">About Me</h1>
+             
+              <ul class="contact-list" style= "font-weight: 400; font-size: 16px; line-height: 22px; color: #999;">
+                Hey, I'm Jack, a developper living in London currently working as an Immersive Lead for 
+              <a href="https://www.unit9.com/">Unit9</a>. 
                 </br>
-                Some of my favourite games include Heroes of Might and Magic 3, the Jak and Daxter trilogy and Fable: Lost Chapters.  
-              </ul>
-            </div>
+                I've had the chance to work on all kinds of exciting projects, from Augmented Reality art pieces, to games to Virtual Reality teaching tools.  
+                </br>
+                </br>   
+                <li>
+                  Contact Me : <a href="mailto:jackberreby@gmail.com">jackberreby@gmail.com</a> 
+                  </li></br>    
+                <li>
+                  Check Out My Github : <a href="https://github.com/divjackdiv">github.com/divjackdiv</a>
+                </li>
+              </ul> 
           </div>
         </div>
-        <div class="col-md-9">
-          <div class="row" style="margin-left: 0px; margin-right: 0px;">
-            <div class="site-title" class="col-md-12">
-              <h1>Projects</h1>
+        <div class="col-md-9" >
+           <div class="container" style = "width:100%;">   
+            <header class="clearfix">
+              <h1>Some projects I've worked on<span>(in no particular order)</span></h1> 
+            </header>
+            <div class="main">
+              <ul id="og-grid" class="og-grid">
+                <li>
+                  <a href = "https://github.com/divjackdiv/Zoo" data-largesrc="images/Deers.png" data-title="Zoo VR" data-description="Zoo VR is the latest personal project I am working on, a zoo tycoon-esque VR game. The image is taken straight out of the Unity editor and is used as a style reference for the rest of the project.">
+                    <img src="images/thumbs/Deer.png" alt="img01" />
+                  </a>
+                </li>
+                <li>
+                  <a href = "https://www.oculus.com/experiences/go/1816230311831858/" data-largesrc="images/DelivrIT.png" data-title="DELIVR IT" data-description="DELIVR IT is a Virtual Reality experience which showcases a range of jobs to encourage job-seekers and students alike to consider a career in the logistics sector. The experience puts users in control of delivering a package, beginning in a factory in Asia, they follow the supply chain all the way to the buyer in Essex. The app was designed for Oculus Go and Oculus Rift and can be downloaded on the Oculus store for free.">
+                    <img src="images/thumbs/delivrit.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                   <a href = "https://github.com/divjackdiv/ArrMatey" data-largesrc="images/boatGif.gif" data-title="Game Jam 2020" data-description="Wanting to participate in the global game jam this year but having not enough time to commit the whole weekend I decided to see what I could create in a day by myself. The idea behind this prototype was to create a small sailing story game, with the main hook being that you control your boat by blowing in the microphone, mimicking the wind on the sail.">
+                    <img src="images/thumbs/BoatThumb.png" alt="img01" style="width:250px;height:250px;"/>
+                  </a>
+                </li>
+                <li>
+                  <a href = "https://www.hypercrc.com" data-largesrc="images/hyper.gif" data-title="Hyper CRC" data-description="Hyper CRC is a VR tool I am working on at Unit9, which mixes virtual design with physical elements. It allows for architects to load their projects, view them in VR alongside their client in multiplayer, and modify different aspects of the project in real time easily by interacting with physical elements.">
+                    <img src="images/thumbs/hyper.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>                  
+                  <a href = "https://github.com/divjackdiv/LivingWorld" data-largesrc="images/procedural.gif" data-title="Procedural Nightmares" data-description="These nightmarish creatures are the result of one of my personal projects focused on procedural generation and animation. My ultimate goal for this project was to create a coherent simulation where as much as possible was procedurally generated. This meant I created all kinds of generating scripts, to create the world, the sprites, the creatures etc. The project was dropped around two years ago as the scope was way too big, though I am currently revisiting it in a small prototype which makes use of these creatures.">
+                    <img src="images/thumbs/procedural.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li> 
+                  <a href="https://www.sadlerswells.com/whats-on/2020/aoe-0ar/"  data-largesrc="images/0ar.jpg" data-title="0AR" data-description="AΦE, an artistic duo, asked us to develop 0AR, an augmented reality (AR) experience inspired by the seminal contemporary dance production Zero Degrees. In 0AR you get to experience and interact with a virtual dance piece in multiplayer augmented reality. This was quite a challenge due to the tight timeline and high aspirations of the piece, but it turned out to be a great experience, which was warmly received when exposed at Sadler's Wells theatre.">
+                    <img src="images/thumbs/0ar.jpg" alt="img02" style="width:250px;height:250px;"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.unit9.com/project/lifesavervr/" data-largesrc="images/lifeSaverVR.png" data-title="Lifesaver VR 2020" data-description="Lifesaver is a suite of video experiences, in VR and on the web to educate people on CPR. During the past few months I have been leading a new iteration of the VR app which contains a whole new UX/UI and adds support for using the app alongside bluetooth enabled CPR manikins, giving real time feedback on the user's performance.">
+                    <img src="images/thumbs/lifesaver.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+             
+                <li>
+                  <a href = "https://somewhereelse.co/project/happily-contained-2018/" data-largesrc="images/HappilyContained.png" data-title="Happily Contained VR" data-description="Happily Contained is an interactive VR art installation that questions our perceived reality, who creates it and why. It was directed by the artist Miao Ying for Art Night London 2019 which is the largest, free contemporary arts festival in London. One of the major challenges of this project was to recreate Ying’s ‘internet’ style in all of our content. For this we adapted, combined and manipulated found 3D assets and replicated her specific digital montage style, consequently creating eight compelling VR art scenes.">
+                    <img src="images/thumbs/HappilyContained.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li>                 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/coats-automotive/" data-largesrc="images/ARCar.jpg" data-title="Coats AR" data-description="Coats are the world’s leading industrial thread business. In early 2019 I worked on an AR marketing experience for a series of global sales events for Coats’ customers in the automotive industry. The app allowed you to interact with a physical 3d model which came to life in AR.">
+                    <img src="images/thumbs/Coats.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href="https://mbryonic.com/portfolio/ar-filters-facebook/"  data-largesrc="FBAR/IceHockey.gif" data-title="Ice Hockey AR" data-description="This is an AR filter I made while working at Mbryonic, using Facebook's Spark AR. It was made for MTG Creative as a way to promote Sweden's Hockey team, in a fun and accessible way.">
+                    <img src="images/thumbs/IceHockey.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/amplify-vr/" data-largesrc="images/AmplifyVR.gif" data-title="Amplify VR" data-description="Amplify VR is without a doubt my favourite project I got to work on at Mbryonic, it is a VR musical experience which procedurally generates and animates environment around you based on the music. The main goal behind it was to reduce the cost of making vr music experiences by using the song as a base for the experience. I worked and tested this app for months yet I always found myself genuinly dancing and taken away by it.">
+                    <img src="images/thumbs/amplifyVR.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/amazon-ar/" data-largesrc="images/AmazonAR.png" data-title="Amazon CES 2019" data-description="For CES 2019, one of the biggest technology trade shows in the world, Amazon approached Mbryonic looking for ideas to help them educate visitors on the types of dangerous goods that are regulated for transport. So we created an app in which users can virtually x-ray a shipping package using augmented reality.">
+                    <img src="images/thumbs/AmazonAR.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href="https://mbryonic.com/portfolio/ar-filters-facebook/"  data-largesrc="FBAR/AreYouTheOne.gif" data-title="Are you the one AR" data-description="This is another Facebook AR filter made while at Mbryonic, made to promote the Swedish version of the MTV tv show 'Are you the one'. The filter would wait until it detected two faces then randomly decided if they were a perfect match.">
+                    <img src="images/thumbs/AreYouTheOne.png" alt="img01" style="width:250px;height:250px;"/>
+                  </a>
+                </li>
+                <li>
+                  <a href = "https://github.com/divjackdiv/" data-largesrc="images/Creepy swamp.png" data-title="The Swamp" data-description="As a developer it is important to be able to understand all parts of making a game, at least a little. By doing so you become more flexible and less reliant on others. As such I always try to further my knowledge and expertise in creative softwares, such as Blender, Gimp, Handbrake etc. This image is one of the compositions I created in Blender when playing around a few years ago.">
+                    <img src="images/thumbs/CreepySwampThumb.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/clearscore-ar/" data-largesrc="images/ClearScoreAR.png" data-title="ClearScore AR" data-description="ClearScore is a London-based FinTech company that gives customers in the UK and South Africa free access to their credit score and report. They asked us to create a proof of concept demonstrating how AR could be used by their users.">
+                    <img src="images/thumbs/clearscore.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                 <li>
+                  <a href="https://mbryonic.com/ar-filters/" data-largesrc="FBAR/TrumpAR.gif" data-title="Puppet Trump AR" data-description="While working at Mbryonic, I had the chance to experiment with lots of different fun projects. One of which is this Facebook filter we made as a way to test the engine's limitations when it had just launched. The filter was actually fairly hard to create as it was made when Spark AR had just come out, the documentation was sparse and capabilities were very limited. To get the puppet effect, we had to track the eyes, eyebrows, face, chest and mouth of the user separately.">
+                    <img src="images/thumbs/TrumpPuppet.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/bodyswaps-david/" data-largesrc="images/Creepy swamp.png" data-title="BodySwaps:David" data-description="BodySwaps – The David Project, is a role-playing soft skills training VR tool, which recreates a performance review meeting between David, an employee with a less-than perfect HR record and a manager. The success of this project actually gave birth to a start-up based on this concept, named BodySwaps.">
+                    <img src="images/thumbs/david.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/ar-dog/" data-largesrc="images/thumbs/Wrench.jpg" data-title="Wrench AR" data-description="Wrench the AR dog was made as part of a proof of concept back when markerless AR was still relatively new. In this small demo you got to play fetch with a Wrench after he comes out of a portal from another dimension. Beware though as Wrench's screws are a little loose and he sometimes fries the tennis balls you throw with his flamethrower rather bringing them back!">
+                    <img src="images/thumbs/Wrench.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://mbryonic.com/portfolio/bodyswaps-susan/" data-largesrc="images/thumbs/Susan.jpg" data-title="BodySwaps:Susan" data-description="BodySwaps - Susan is a vr psychiatric nursing training tool made for Sage publishing. This experience lets the user embody both the nurse and the patient, by 'BodySwapping'. It allows one to understand and adapt to a patient’s situation from both sides, build empathy and improve their knowledge around patient care.">
+                    <img src="images/thumbs/Susan.jpg" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+                <li>
+                  <a href = "https://github.com/divjackdiv/IsoSpellCreator" data-largesrc="images/spell.gif" data-title="SpellCrafter" data-description="This project was created when I was still in University, alongside a game designer and an artist. It was a 2d isometric tactical RPG where you could create your own spells, set in world inspired by east-asian fables. The project was ultimatly never completed due to the availability of the two other people involved.">
+                    <img src="images/thumbs/isoSpell.png" alt="img03" style="width:250px;height:250px;"/>
+                  </a>
+                </li> 
+              </ul> 
             </div>
-          </div>
-          <div class="row" style="margin-left: 0px; margin-right: 0px;">
-            <div class="col-md-1"> </div>     
-
-            <div class="col-md-3">
-              <a class="page-link" href="/tiny_defense">
-              <div class = "hvr-grow round-btn-outer" style ="background: #dc855d;">
-                <div class = "round-btn-inner" style="background: #FFA880;">
-                  <img class="round-btn-img" src="/imgs/tinyDefIcon.png">
-                </div>
-              <h2 style="color:#424242"> Tiny Defense </h2>
-              </div>
-              </a>
-            </div>
-
-            <div class="col-md-3"> 
-              <a href="/shapeshifters">
-              <div class = "hvr-grow round-btn-outer"  style ="background: #8CC29C;">
-                <div class = "round-btn-inner" style="background: #80FFA8;">
-                  <img src="/imgs/redCrosshair.png" style = "margin-left:15.5%; margin-top:15.5%; height:120px;" >
-                </div>
-                <h2 style="color:#424242"> ShapeShifters </h2>
-              </div>   
-              </a>         
-            </div>
-
-            <div class="col-md-3"> 
-              <a href="/spellcrafter">
-              <div class = "hvr-grow round-btn-outer"  style ="background: #af8449;">
-                <div class = "round-btn-inner" style="background: #CFAC7D;">
-                  <img class="round-btn-img" src="/imgs/isoSpell.png" style = "margin-left:4%;">
-                </div>
-                <h2 style="color:#424242"> SpellCrafter </h2>
-              </div>  
-              </a>          
-            </div>
-          </div>
-        </div>
-      </div>
+          </div> 
+        </div> 
+      </div> 
   </main>
-  <footer class="custom-footer">
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-3" style="margin-bottom: 0px;">
-          <ul class="contact-list">
-            <li>
-              Contact Me :
-            </li>            
-            <li><a href="mailto:jackberreby@gmail.com">jackberreby@gmail.com</a></li>    
-          </ul>
-        </div>
-        <div class="footer-col footer-col-3" style="margin-bottom: 0px;">
-          <ul class="contact-list">
-            <li>
-              Check Out My Github :
-            </li>            
-            <li><a href="https://github.com/divjackdiv">github.com/divjackdiv</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="/css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -130,6 +187,13 @@
       ga('create', 'UA-93355304-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/grid.js"></script>
+    <script>
+      $(function() {
+        Grid.init();
+      });
     </script>
   </body>
 
